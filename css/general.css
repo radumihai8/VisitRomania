@@ -1,0 +1,371 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.img-fluid2
+{
+max-width: 100%;
+    height: auto;
+    width: 100%;
+    /* max-width: 25vh; */
+    max-height: 20vh;
+}
+.badge-premium
+{
+  color: #fff;
+    background-color: #ec8b01;
+}
+.premium
+{
+  box-shadow: 0 0 15px #eab223;
+}
+.nav-item
+{
+      white-space: nowrap;
+}
+.server-desc span
+{
+  color: #c72d3e;
+}
+.vbg {
+    border: 0;
+    background-image: url(https://www.metin2pserver.info/images/barbg.png);
+    background-repeat: no-repeat;
+}
+
+.vbg:hover {
+    border: 0;
+    background-image: url(https://www.metin2pserver.info/images/barbg2.png);
+    background-repeat: no-repeat
+}
+.website
+{
+  background: #fff;
+  border-style: solid;
+  border-color: #313131;
+  border-width: 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.website:hover
+{
+  background: #fff;
+  border-style: solid;
+  border-color: #fd7e14;
+  border-width: 1px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.button {
+  display: inline-block;
+  font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  padding: 0.8em 1.4em;
+  padding-right: 4.7em;
+  background: #009ED8;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+.button:before,
+.button:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding-top: inherit;
+  padding-bottom: inherit;
+  width: 2.8em;
+  content: "\00a0";
+  font-family: 'FontAwesome', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  transition: 0.2s;
+  transform-origin: 50% 60%;
+}
+.button:before {
+  background: rgba(0, 0, 0, 0.1);
+}
+.button:hover {
+  background: #0079a5;
+}
+.button:active,
+.button:focus {
+  background: #002e3f;
+  outline: none;
+}
+.arrow {
+  background: #FE5F55;
+}
+.arrow:hover {
+  background: #fe2f22;
+}
+.arrow:active,
+.arrow:focus {
+  background: #b90c01;
+}
+.arrow:after {
+  content: "\F054";
+}
+.arrow:hover:after {
+  -webkit-animation: bounceright 0.3s alternate ease infinite;
+  animation: bounceright 0.3s alternate ease infinite;
+}
+.vote {
+  background: #404040;
+}
+.vote:hover {
+  background: #6d6b6b;
+}
+.vote:active,
+.vote:focus {
+  background: #6d6b6b;
+}
+.vote:after {
+  content: "\F054";
+}
+.phone {
+  background: #139675;
+}
+.phone:hover {
+  background: #0d6952;
+}
+.phone:active,
+.phone:focus {
+  background: #083b2e;
+}
+.phone:after {
+  content: "\f0ac";
+}
+.phone:hover:after {
+  -webkit-animation: wiggle 0.05s alternate ease infinite;
+  animation: wiggle 0.05s alternate ease infinite;
+}
+.email {
+  background: #C673B3;
+}
+.email:hover {
+  background: #b74f9f;
+}
+.email:active,
+.email:focus {
+  background: #963d82;
+}
+.email:after {
+  content: "\F0E0";
+}
+.email:hover:after {
+  -webkit-animation: none;
+  -webkit-transform: skew(-20deg);
+  animation: none;
+  transform: skew(-20deg);
+  text-indent: 0.1em;
+}
+.search:after {
+  content: "\f002";
+}
+.search:hover:after {
+  -webkit-animation: none;
+  -webkit-transform: scale(1.4);
+  animation: none;
+  transform: scale(1.4);
+}
+@-webkit-keyframes bounceright {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(3px);
+  }
+}
+@-webkit-keyframes wiggle {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(30deg);
+  }
+}
+@keyframes bounceright {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(3px);
+  }
+}
+@keyframes wiggle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
+
+.tags
+{
+  margin-top: 10px;
+border-top: 1px #313131 solid;
+padding-top: 1%;
+}
+.card-b
+{
+  margin-top: 50%;
+}
+#upvote:hover {
+  background-color: #82dc78;
+}
+#voted:hover {
+  background-color: #2f2f2f;
+}
+
+#upvote {
+  color: white;
+}
+.button-upvote {
+  height: 4em;
+
+  margin-left: 0.5rem;
+  background-color: #2d7525;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+
+}
+.button-voted {
+  height: 4em;
+
+  margin-left: 0.5rem;
+  background-color: #768075;
+
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+
+}
+.btbg3 {
+    opacity: .8;
+    background-repeat: repeat-x;
+
+}
+.btbg2 {
+    opacity: .8;
+    background-repeat: repeat-x;
+
+}
+.card-margin
+{
+      padding: 0.75rem 1.25rem;
+      width: 10vh;
+}
+.card-title
+{
+  border-bottom: 1px #313131 solid;
+  padding-bottom: 1%;
+}
+.btn-day {
+  color: #000;
+  background-color: #efd5a7;
+  border-color: #e2c085;
+}
+
+.btn-day:hover {
+  color: #000;
+  background-color: #efd5a7;
+  border-color: #e2c085;
+}
+
+.btn-day:focus, .btn-day.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-night {
+  color: #fff;
+  background-color: #15032b;
+  border-color: #15032b;
+}
+
+.btn-night:hover {
+  color: #fff;
+  background-color: #15032b;
+  border-color: #15032b;
+}
+
+.btn-night:focus, .btn-night.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.sort-top
+{
+	  margin: auto;
+	  background-color: #f4b642!important;
+	  border-color: #000!important;
+}
+.sort-hot
+{
+	  margin: auto;
+	  background-color: #f44a41!important;
+	  border-color: #000!important;
+}
+.sort-new
+{
+	  margin: auto;
+	  background-color: #3c7f18!important;
+	  border-color: #000!important;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
